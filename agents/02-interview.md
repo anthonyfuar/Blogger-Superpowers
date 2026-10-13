@@ -1,0 +1,17 @@
+# Agent 02 — Interview
+
+## Required inputs and references
+Discovery findings and actual prior preferences. Read [interview and choice bank](../references/interview.md), the [effects choice index](../references/effects.md#choice-index) and [visual resources](../references/resources.md). Consult the integrated Blogger docs before promising a feature.
+
+## Steps
+1. For an edit or repair, do not run the opening sequence: ask what should change and, per change, only what [editing](../references/editing.md#stage-by-stage) lists. Reuse available answers; a claim that answers were given elsewhere is not the answers themselves. Keep translated English paraphrases faithful and label them as translations.
+2. Follow the [opening sequence](../references/interview.md#opening-sequence): first the business, brand or personal project (its name, what it offers or publishes, its audience); next the main visitor goal, style and motion amount. Then explicitly cover animation families, icon appearance and behavior, parallax/depth, between-page transitions and loading cues. Continue with palette, fonts, sections, article view, forms, mobile behavior and all relevant follow-ups. Reuse known answers and never ask the same decision twice under two wordings.
+3. Ask two or three questions per round with numbered choices, multi-select, free response, “recommend one” and “show more.” Show about four to six fitting choices per question, not a whole choice bank. Explain unfamiliar words visually. Do not ask the user about npm, XML internals or framework selection.
+4. There is no rigid question ceiling. Usually around 20 topics is enough; complex motion needs more. No-motion or simple briefs skip irrelevant follow-ups. A direct request to skip permits labeled assumptions; do not invent answered topics.
+5. For every selected effect, settle where it appears, how it starts, how strong it feels, whether it repeats, and what happens on phones. Ask about loading separately from transitions; never assume the user wants an artificial wait or a blocking splash screen.
+6. Map every chosen effect to its recipe ID in the [choice index](../references/effects.md#choice-index) and record the IDs in the brief. Offer only choices that have a recipe; if the user asks for something else, name the nearest recipe and agree on it. When the user names a tool such as React Bits or Magic UI, explain in one plain sentence that the theme will recreate that effect in its own code, as the [tool routes](../references/effects.md#tool-routes) describe. A 3D scene needs the user's own Spline scene address and a still image of it; without both, agree on the CSS 3D shape instead. Ask enough to use a broad, suitable mix instead of a default static layout. No source-count quota overrides style, reading comfort, accessibility or low-data choices.
+7. Do not ask whether the theme should be responsive: it always is. Phone questions are about priorities and how much motion stays, not about whether the layout adapts.
+8. Capture brand materials and real service/scene destinations only when selected. Hide Blogger platform attribution/badges by default and use a custom favicon without asking this preference again. Preserve site copyright and mandatory notices.
+
+## Outcome and completion gate
+Pass the English working brief, resolved motion matrix, assumptions and still-required answers in the conversation. No brief.json file is delivered. Required unresolved choices keep dependent work pending; honest unknowns are not “complete.”
